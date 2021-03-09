@@ -41,7 +41,7 @@ body {
 }
 
 .yanguguBigLogo {
-    background-image: url(/yangu/images/logo_light2.png);
+    background-image: url(/yangugu/images/logo_light2.png);
     background-position-y: 300px;
     background-position-x: -150px;
     background-repeat: no-repeat;
@@ -279,15 +279,15 @@ nav img {
 }
 
 #pic1 {
-    background-image: url('/yangu/images/bg10.jpg');
+    background-image: url('/yangugu/images/bg10.jpg');
 }
 
 #pic2 {
-    background-image: url('/yangu/images/bg12.jpg');
+    background-image: url('/yangugu/images/bg12.jpg');
 }
 
 #pic3 {
-    background-image: url('/yangu/images/bg13.jpg');
+    background-image: url('/yangugu/images/bg13.jpg');
 }
 
 #pic4,
@@ -302,15 +302,15 @@ nav img {
 }
 
 #pic4 {
-    background-image: url('/yangu/images/bg10.jpg');
+    background-image: url('/yangugu/images/bg10.jpg');
 }
 
 #pic5 {
-    background-image: url('/yangu/images/bg12.jpg');
+    background-image: url('/yangugu/images/bg12.jpg');
 }
 
 #pic6 {
-    background-image: url('/yangu/images/bg13.jpg');
+    background-image: url('/yangugu/images/bg13.jpg');
 }
 
 .carouselPic {
@@ -360,7 +360,7 @@ nav img {
 }
 
 .slogan {
-    background-image: url('/yangu/images/bg1.jpg');
+    background-image: url('/yangugu/images/bg1.jpg');
     margin: 100px 0 100px 0;
     padding: 100px 0 100px 0;
 }
