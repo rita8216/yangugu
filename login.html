@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.css" />
+    <link rel="stylesheet" href="/yangu/css/index.css" />
+    <link rel="stylesheet" href="/yangu/css/login.css" />
+
+    <script src="/yangu/js/jquery-3.5.1.min.js"></script>
+    <script src="/yangu/js/index.js"></script>
+
+    <title>Document</title>
+</head>
+
+<body class="">
+    <!-- 導覽列 -->
+
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <h1 class="navbar-brand">
+            <a href="index.html"><img src="/yangu/images/logo.png" alt="" /></a>
+        </h1>
+
+        <button class="searchBig d-block d-lg-none" class="">
+                <i class="fa fa-search"></i>
+            </button>
+        <div class="d-block d-lg-none">
+            <div class="" id="searchBigContent">
+                <span class="icon"><a href=""><i class="fa fa-search"></i></a
+                    ></span>
+                <input type="search" id="search" placeholder="Search ..." />
+            </div>
+        </div>
+        <button data-toggle="collapse" data-target="#menu" class="navbar-toggler">
+                <span>
+                    <div class="burger" data-toggle="collapse" data-target="#menu">
+                        <div class="line line1"></div>
+                        <div class="line line2"></div>
+                        <div class="line line3"></div>
+                    </div>
+                </span>
+            </button>
+
+        <div class="navbar-collapse collapse justify-content-end p-0 m-0" id="menu">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link navLink about" id="about">
+                        <span class="en about">ABOUT</span>
+                        <span class="tw">姑姑的事</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="shop.html" class="nav-link navLink" id="works">
+                        <span class="en">SHOP</span>
+                        <span class="tw">商品底加</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="carts.html" class="nav-link navLink" id="service">
+                        <span class="en">CARTS</span>
+                        <span class="tw">購物車車</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="login.html" class="nav-link navLink" id="news">
+                        <span class="en">LOGIN</span>
+                        <span class="tw">會員登入</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <div class="search2 d-none d-lg-block">
+                        <span class="icon"><a href=""><i class="fa fa-search"></i></a
+                            ></span>
+                        <input type="search" id="search" placeholder="Search..." />
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row mt-5 loginForm">
+            <div class="col-10 offset-1 col-lg-6 offset-lg-3 loginForm">
+                <form action="" method="post" target="hiddenArea">
+                    <div class="col-12 text-center pt-5 mt-5">
+                        <h5 class="">LOGIN / 會員登入</h5>
+                    </div>
+                    <div class="col-12 pt-3">
+                        <input type="email" id="email" class="bg-transparent formContent" placeholder="email . 信箱" required />
+                    </div>
+                    <div class="col-12 pt-3">
+                        <input type="password" id="password" class="bg-transparent formContent" placeholder="password . 密碼" required />
+                    </div>
+                    <div class="col-12 pt-3">
+                        <div class="row">
+                            <div class="col-3">
+                                <input type="checkbox" name="rememberme" id="rememberme" value="rememberme" class="" />
+                                <label for="rememberme" class="rememberme">記住我</label>
+                            </div>
+                            <div class="col-6"></div>
+                            <div class="col-3"><a href="" class="forget">忘記密碼</a></div>
+                        </div>
+                    </div>
+                    <div class="col-12 pt-5 text-center">
+                        <input type="submit" value="login" id="sub" class="m-2" />
+                        <input type="button" value="register" id="sub" class="m-2" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- 表單結束 -->
+
+    <!-- 頁尾 -->
+    <footer class="row">
+        <div class="col" id="footer1">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <p>
+                &copy;YANGUGU ALL RIGHTS RESERVED<br /> DESIGN BY LUN
+            </p>
+        </div>
+    </footer>
+
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+
+</html>
