@@ -72,13 +72,13 @@ body {
 /* 商品資訊  */
 
 .productDetails {
-    border-bottom: 1px solid #000;
     padding: 10px;
     margin: 10px 10px 10px 1px;
 }
 
-.productDetails div {
+.productDetails h5 {
     border-left: 5px solid #000;
+    border-bottom: 1px solid #000;
 }
 
 
